@@ -8,5 +8,167 @@ html {
 
 body {
   margin: 0;
-  min-height: 100%;
+  color: #181818;
+}
+
+a {
+  color: #fff;
+}
+
+header,
+footer {
+  background-color: #512da8;
+}
+.top-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top-nav-left-section a {
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+.top-nav-left-section {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.top-nav-right-section {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.top-nav-right-section a {
+  padding: 1.25rem;
+}
+
+.apod-section {
+  background-color: #212121;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tagline-h1 {
+  color: #fff;
+  font-size: 2rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.copyright-section {
+  font-size: 0.85rem;
+  width: 100%;
+  text-align: center;
+}
+
+.carousel-title-section {
+  background-color: #ffc107;
+}
+.carousel-title-h2 {
+  padding-left: 0.5rem;
+  margin: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.carousel-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 2rem 0rem 2rem 0rem; */
+}
+
+.carousel-section > button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffc107;
+  width: 3.5rem;
+  /* height: 5rem; */
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.left-carousel-btn {
+  border-radius: 0rem 1rem 1rem 0rem;
+}
+
+.right-carousel-btn {
+  border-radius: 1rem 0rem 0rem 1rem;
+}
+
+.mission-title-section {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+.launch-card-section {
+  width: 100%;
+  padding: 0rem 1rem 0.5rem 1rem;
+  border-radius: 1rem;
+  margin: 1rem 3rem 1rem 3rem;
+  background-color: #ededed;
+}
+.mission-title-section,
+.mission-description-section,
+.mission-countdown-section,
+.mission-location-section {
+  padding: 0.5rem 0rem 0.75rem 0rem;
+}
+
+.mission-countdown-section {
+  border-bottom: #999 1px solid;
+  border-top: #999 1px solid;
+}
+
+.mission-statement-section {
+  background: #d1c4e9;
+  display: flex;
+  flex-direction: column;
+}
+
+.mission-statement-title {
+  text-align: center;
+  font-size: 1.75rem;
+}
+
+.mission-statement-paragraph {
+  text-align: center;
+  margin: 0rem 0.5rem 2.5rem 0.5rem;
+  font-size: 1.2rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-section {
+  color: #fff;
+  padding: 2rem 0 2rem 0;
+}
+
+/* Medium*/
+@media only screen and(min-width: 500px) {
+  .mission-statement-paragraph {
+    /* width: 75%; */
+  }
+  .carousel-section > button {
+    width: 10rem;
+  }
+}
+
+/* large  */
+@media (min-width: 1000px) {
+  .carousel-section > button {
+    width: 10rem;
+  }
 }
